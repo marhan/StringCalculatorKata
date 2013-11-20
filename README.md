@@ -1,3 +1,7 @@
-Test-Driven Development Kata
+# Test-Driven Development Kata
 
-Based upon [Roy Osherove's String Calculator Kata](http://osherove.com/tdd-kata-1/)
+**Programming language:** Java
+
+**Testframework:** Junit with Hamcrest Matcher.
+
+**Based upon:** [Roy Osherove's String Calculator Kata](http://osherove.com/tdd-kata-1/)
