@@ -51,4 +51,10 @@ public class StringCalculatorTest {
         assertThat(sum, is(1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9));
     }
 
+    @Test
+    public void whenManyNumbersNewLineSeparatedGivenThanSumReturned() {
+        int sum = subject.add("2\n5,10");
+        assertThat(sum, is(17));
+    }
+
 }
